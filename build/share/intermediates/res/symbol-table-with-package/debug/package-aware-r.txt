@@ -1,0 +1,2 @@
+io.flutter.plugins.share
+style Theme_Transparent

@@ -1,0 +1,31 @@
+//Future<List<BookInfo>> getBooks() async {
+//  List<BookInfo> books = <BookInfo>[
+//    new BookInfo(
+//      title: "title 1",
+//      author: "author 1",
+//      level: "intermediate",
+//      totalWords: 1000,
+//      uniqueWords: 598,
+//      genre: "novel",
+//    ),
+//    new BookInfo(
+//      title: "title 2",
+//      author: "author 2",
+//      level: "advanced",
+//      totalWords: 6817,
+//      uniqueWords: 5312,
+//      genre: "science fiction",
+//    ),
+//    new BookInfo(
+//      title: "title 3",
+//      author: "author 3",
+//      level: "intermediate",
+//      totalWords: 322,
+//      uniqueWords: 123,
+//      genre: "science fiction",
+//    )
+//
+//  ];
+//  return books;
+//
+//}

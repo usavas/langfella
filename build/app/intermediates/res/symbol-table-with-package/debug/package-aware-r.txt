@@ -1,0 +1,5 @@
+com.langfella.langfella2
+drawable launch_background
+mipmap ic_launcher
+style LaunchTheme
+style Theme_Transparent

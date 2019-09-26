@@ -14,110 +14,164 @@
 14    <uses-permission android:name="android.permission.INTERNET" />
 14-->/home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml:6:5-66
 14-->/home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml:6:22-64
-15    <!--
-16     io.flutter.app.FlutterApplication is an android.app.Application that
-17         calls FlutterMain.startInitialization(this); in its onCreate method.
-18         In most cases you can leave this as-is, but you if you want to provide
-19         additional functionality it is fine to subclass or reimplement
-20         FlutterApplication and put your custom class here.
-21    -->
-22    <application
-22-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:9:5-32:19
-23        android:name="io.flutter.app.FlutterApplication"
-23-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:10:9-57
-24        android:debuggable="true"
-25        android:icon="@mipmap/ic_launcher"
-25-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:12:9-43
-26        android:label="langfella2" >
-26-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:11:9-35
-27        <activity
-27-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:13:9-31:20
-28            android:name="com.langfella.langfella2.MainActivity"
-28-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:14:13-41
-29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-29-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:17:13-144
-30            android:hardwareAccelerated="true"
-30-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:18:13-47
-31            android:launchMode="singleTop"
-31-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:15:13-43
-32            android:theme="@style/LaunchTheme"
-32-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:16:13-47
-33            android:windowSoftInputMode="adjustResize" >
-33-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:19:13-55
-34
-35            <!--
-36                 This keeps the window background of the activity showing
-37                 until Flutter renders its first frame. It can be removed if
-38                 there is no splash screen (such as the default splash screen
-39                 defined in @style/LaunchTheme).
-40            -->
-41            <meta-data
-41-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:24:13-26:40
-42                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
-42-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:25:17-82
-43                android:value="true" />
-43-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:26:17-37
-44
-45            <intent-filter>
-45-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:27:13-30:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:28:17-68
-46-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:28:25-66
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:11:5-81
+15-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.GET_TASKS" />
+16-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:12:5-68
+16-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:12:22-65
+17    <!--
+18 io.flutter.app.FlutterApplication is an android.app.Application that
+19         calls FlutterMain.startInitialization(this); in its onCreate method.
+20         In most cases you can leave this as-is, but you if you want to provide
+21         additional functionality it is fine to subclass or reimplement
+22         FlutterApplication and put your custom class here.
+23    -->
+24    <application
+24-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:10:5-34:19
+25        android:name="com.langfella.langfella2.Application"
+25-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:12:9-36
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/7eccdefb6c9f8542a620665b4e125dec/core-1.0.1/AndroidManifest.xml:22:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:14:9-43
+29        android:label="langfella2" >
+29-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:13:9-35
+30        <activity
+30-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:15:9-33:20
+31            android:name="com.langfella.langfella2.MainActivity"
+31-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:16:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:19:13-144
+33            android:hardwareAccelerated="true"
+33-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:20:13-47
+34            android:launchMode="singleTop"
+34-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:17:13-43
+35            android:theme="@style/LaunchTheme"
+35-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:18:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:21:13-55
+37
+38            <!--
+39                 This keeps the window background of the activity showing
+40                 until Flutter renders its first frame. It can be removed if
+41                 there is no splash screen (such as the default splash screen
+42                 defined in @style/LaunchTheme).
+43            -->
+44            <meta-data
+44-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:26:13-28:40
+45                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+45-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:27:17-82
+46                android:value="true" />
+46-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:28:17-37
 47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:29:17-76
-48-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:29:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity
-51-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-32:20
-52            android:name="io.flutter.plugins.share.ShareReceiverActivityWorker"
-52-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-80
-53            android:theme="@style/Theme.Transparent" >
-53-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-53
-54            <intent-filter>
-54-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-17:29
-55                <action android:name="android.intent.action.SEND" />
-55-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:17-69
-55-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:25-66
-56
-57                <category android:name="android.intent.category.DEFAULT" />
-57-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-76
-57-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:27-73
-58
-59                <data android:mimeType="text/plain" />
-59-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-55
-59-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:23-52
-60            </intent-filter>
-61            <intent-filter>
-61-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-24:29
-62                <action android:name="android.intent.action.SEND" />
-62-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:17-69
-62-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:25-66
-63
-64                <category android:name="android.intent.category.DEFAULT" />
-64-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-76
-64-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:27-73
+48            <intent-filter>
+48-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:29:13-32:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:30:17-68
+49-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:30:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:31:17-76
+51-->/home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:31:27-74
+52            </intent-filter>
+53        </activity>
+54        <!-- HeadlessJS For android sdk 21+ uses new JobScheduler API -->
+55        <service
+55-->[:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-13:72
+56            android:name="com.transistorsoft.flutter.backgroundfetch.HeadlessJobService"
+56-->[:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-89
+57            android:exported="true"
+57-->[:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-36
+58            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- HeadlessJS For Android sdk <21 uses old AlarmManager API -->
+58-->[:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-69
+59        <receiver android:name="com.transistorsoft.flutter.backgroundfetch.HeadlessBroadcastReceiver" >
+59-->[:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-19:20
+59-->[:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:15:19-102
+60            <intent-filter>
+60-->[:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:29
+61                <action android:name="com.langfella.langfella2.event.BACKGROUND_FETCH" />
+61-->[:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-82
+61-->[:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-79
+62            </intent-filter>
+63        </receiver>
+64        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+64-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:15:9-92
+64-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:15:19-89
 65
-66                <data android:mimeType="*/*" />
-66-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-55
-66-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:23-52
-67            </intent-filter>
-68            <intent-filter>
-68-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-31:29
-69                <action android:name="android.intent.action.SEND_MULTIPLE" />
-69-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-78
-69-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:26:25-75
+66        <service
+66-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:17:9-20:72
+67            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+67-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:18:13-80
+68            android:exported="true"
+68-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:19:13-36
+69            android:permission="android.permission.BIND_JOB_SERVICE" />
+69-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:20:13-69
 70
-71                <category android:name="android.intent.category.DEFAULT" />
-71-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-76
-71-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:27-73
-72
-73                <data android:mimeType="*/*" />
-73-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-55
-73-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:23-52
-74            </intent-filter>
-75        </activity>
-76    </application>
+71        <receiver android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver" >
+71-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:22:9-27:20
+71-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:22:19-83
+72            <intent-filter>
+72-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:23:13-26:29
+73                <action android:name="android.intent.action.BOOT_COMPLETED" />
+73-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:24:17-79
+73-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:24:25-76
+74                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+74-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:25:17-84
+74-->[tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:25:25-81
+75            </intent-filter>
+76        </receiver>
 77
-78</manifest>
+78        <activity
+78-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-32:20
+79            android:name="io.flutter.plugins.share.ShareReceiverActivityWorker"
+79-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-80
+80            android:theme="@style/Theme.Transparent" >
+80-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-53
+81            <intent-filter>
+81-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-17:29
+82                <action android:name="android.intent.action.SEND" />
+82-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:17-69
+82-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-76
+84-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:27-73
+85
+86                <data android:mimeType="text/plain" />
+86-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-55
+86-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:23-52
+87            </intent-filter>
+88            <intent-filter>
+88-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-24:29
+89                <action android:name="android.intent.action.SEND" />
+89-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:17-69
+89-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-76
+91-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:27-73
+92
+93                <data android:mimeType="*/*" />
+93-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-55
+93-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:23-52
+94            </intent-filter>
+95            <intent-filter>
+95-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-31:29
+96                <action android:name="android.intent.action.SEND_MULTIPLE" />
+96-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-78
+96-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:26:25-75
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-76
+98-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:27-73
+99
+100                <data android:mimeType="*/*" />
+100-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-55
+100-->[:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:16:23-52
+101            </intent-filter>
+102        </activity>
+103    </application>
+104
+105</manifest>

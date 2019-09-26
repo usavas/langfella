@@ -1,80 +1,180 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from [:sqflite] /home/savas/androidstudioprojects/langfella2/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:2:1-30:12
+MERGED from [:sqflite] /home/savas/androidstudioprojects/langfella2/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-35:12
 MERGED from [:path_provider] /home/savas/androidstudioprojects/langfella2/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/savas/.gradle/caches/transforms-2/files-2.1/0d7e9453f40e7499a9a54e65d12cd730/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/66f1e158e031e3f7e5d634069b8077c5/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/efbe69a8ba6a33b526734fa3c1d9ea84/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/611fe6fb14b620fb45ec15e02cca9f44/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/0200fe1a5c32e074dc192accde9940d0/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/1ee9b782d65fa0559b8c54ea34207dde/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/f72268e600cc17800e60910ca3d2bd65/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/1eee9a5234acb0d9def9aac10c7f3af9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/28f750dfd2d0af88eba44adf90bcde05/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/7c0ef516cebd892c6cf7acbdb6e44f0c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/279d580201ef799bf5af3dde439af07e/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/3e0fe89101d18f5f11be922aaf11740f/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/d84aa3513a0a69fa0544e77f36fcdb30/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/3671a51d09c6edb4d6fc7517ffd6f2e8/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/7eccdefb6c9f8542a620665b4e125dec/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/eae1e1bf7b41c88eb39a59daeaddd1fa/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/ce52a52bbbff4a5f9106c07425002133/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/1991dd480a20514c97a738230755be71/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/08e5727ebd6e02f9ebac497d766f3908/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/f9ccba07f2d8cda138a5f81f0c75d7fb/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/9a1242e0c07e4512a7b7145af59ff477/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/e7a48ed8cc39e1addffc3283ebe70c3f/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/47e97ba2f7d01befdf0f7bbb6dc3a177/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/6b021111af4124dd47658f28597f8e15/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/b5789c4585f4a680a573a11621b1e764/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/df0c84d35d0843ea27b512781e435977/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:2:5-39
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-35:12
 		INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:2:5-51
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:2:5-51
 	android:versionCode
 		INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:1-35:12
 		INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:9:5-32:19
+ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:10:5-34:19
+MERGED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-20:19
+MERGED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-20:19
+MERGED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:14:5-28:19
+MERGED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:14:5-28:19
 MERGED from [:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-33:19
 MERGED from [:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-33:19
+MERGED from [androidx.core:core:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/7eccdefb6c9f8542a620665b4e125dec/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/7eccdefb6c9f8542a620665b4e125dec/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/eae1e1bf7b41c88eb39a59daeaddd1fa/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/eae1e1bf7b41c88eb39a59daeaddd1fa/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/7eccdefb6c9f8542a620665b4e125dec/core-1.0.1/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:13:9-35
+		REJECTED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:14:18-50
 	android:icon
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:14:9-43
+	tools:replace
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:11:9-38
 	android:name
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:10:9-57
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:12:9-36
 activity#com.langfella.langfella2.MainActivity
-ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:13:9-31:20
+ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:15:9-33:20
 	android:launchMode
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:15:13-43
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:17:13-43
 	android:hardwareAccelerated
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:18:13-47
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:20:13-47
 	android:windowSoftInputMode
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:19:13-55
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:21:13-55
 	android:configChanges
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:17:13-144
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:19:13-144
 	android:theme
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:16:13-47
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:18:13-47
 	android:name
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:16:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:24:13-26:40
+ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:26:13-28:40
 	android:value
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:26:17-37
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:28:17-37
 	android:name
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:25:17-82
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:27:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:27:13-30:29
+ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:29:13-32:29
 action#android.intent.action.MAIN
-ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:28:17-68
+ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:30:17-68
 	android:name
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:29:17-76
+ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:31:17-76
 	android:name
-		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml:31:27-74
 uses-sdk
 INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/main/AndroidManifest.xml
-MERGED from [:sqflite] /home/savas/androidstudioprojects/langfella2/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] /home/savas/androidstudioprojects/langfella2/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:7:5-9:41
+MERGED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:7:5-9:41
+MERGED from [:sqflite] /home/savas/androidstudioprojects/langfella2/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:sqflite] /home/savas/androidstudioprojects/langfella2/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /home/savas/androidstudioprojects/langfella2/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /home/savas/androidstudioprojects/langfella2/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/savas/.gradle/caches/transforms-2/files-2.1/0d7e9453f40e7499a9a54e65d12cd730/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/savas/.gradle/caches/transforms-2/files-2.1/0d7e9453f40e7499a9a54e65d12cd730/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/66f1e158e031e3f7e5d634069b8077c5/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/66f1e158e031e3f7e5d634069b8077c5/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/efbe69a8ba6a33b526734fa3c1d9ea84/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/efbe69a8ba6a33b526734fa3c1d9ea84/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/611fe6fb14b620fb45ec15e02cca9f44/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/611fe6fb14b620fb45ec15e02cca9f44/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/0200fe1a5c32e074dc192accde9940d0/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/0200fe1a5c32e074dc192accde9940d0/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/1ee9b782d65fa0559b8c54ea34207dde/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/1ee9b782d65fa0559b8c54ea34207dde/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/f72268e600cc17800e60910ca3d2bd65/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/f72268e600cc17800e60910ca3d2bd65/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/1eee9a5234acb0d9def9aac10c7f3af9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/1eee9a5234acb0d9def9aac10c7f3af9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/28f750dfd2d0af88eba44adf90bcde05/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/28f750dfd2d0af88eba44adf90bcde05/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/7c0ef516cebd892c6cf7acbdb6e44f0c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/7c0ef516cebd892c6cf7acbdb6e44f0c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/279d580201ef799bf5af3dde439af07e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/279d580201ef799bf5af3dde439af07e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/3e0fe89101d18f5f11be922aaf11740f/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/3e0fe89101d18f5f11be922aaf11740f/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/d84aa3513a0a69fa0544e77f36fcdb30/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/d84aa3513a0a69fa0544e77f36fcdb30/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/3671a51d09c6edb4d6fc7517ffd6f2e8/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/3671a51d09c6edb4d6fc7517ffd6f2e8/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/7eccdefb6c9f8542a620665b4e125dec/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/savas/.gradle/caches/transforms-2/files-2.1/7eccdefb6c9f8542a620665b4e125dec/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/eae1e1bf7b41c88eb39a59daeaddd1fa/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/eae1e1bf7b41c88eb39a59daeaddd1fa/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/ce52a52bbbff4a5f9106c07425002133/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/ce52a52bbbff4a5f9106c07425002133/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/1991dd480a20514c97a738230755be71/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/1991dd480a20514c97a738230755be71/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/08e5727ebd6e02f9ebac497d766f3908/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/08e5727ebd6e02f9ebac497d766f3908/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/f9ccba07f2d8cda138a5f81f0c75d7fb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/f9ccba07f2d8cda138a5f81f0c75d7fb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/9a1242e0c07e4512a7b7145af59ff477/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/9a1242e0c07e4512a7b7145af59ff477/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/e7a48ed8cc39e1addffc3283ebe70c3f/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/e7a48ed8cc39e1addffc3283ebe70c3f/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/47e97ba2f7d01befdf0f7bbb6dc3a177/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/47e97ba2f7d01befdf0f7bbb6dc3a177/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/6b021111af4124dd47658f28597f8e15/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/6b021111af4124dd47658f28597f8e15/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/b5789c4585f4a680a573a11621b1e764/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/b5789c4585f4a680a573a11621b1e764/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/df0c84d35d0843ea27b512781e435977/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/savas/.gradle/caches/transforms-2/files-2.1/df0c84d35d0843ea27b512781e435977/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -87,6 +187,64 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml:6:5-66
 	android:name
 		ADDED from /home/savas/androidstudioprojects/langfella2/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#com.transistorsoft.flutter.backgroundfetch.HeadlessJobService
+ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-13:72
+	android:exported
+		ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-36
+	android:permission
+		ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-69
+	android:name
+		ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-89
+receiver#com.transistorsoft.flutter.backgroundfetch.HeadlessBroadcastReceiver
+ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-19:20
+	android:name
+		ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:15:19-102
+intent-filter#action:name:${applicationId}.event.BACKGROUND_FETCH
+ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:29
+intent-filter#action:name:com.langfella.langfella2.event.BACKGROUND_FETCH
+ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:29
+action#${applicationId}.event.BACKGROUND_FETCH
+ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-79
+action#com.langfella.langfella2.event.BACKGROUND_FETCH
+ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [:background_fetch] /home/savas/androidstudioprojects/langfella2/build/background_fetch/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-79
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:12:22-65
+receiver#com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver
+ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:15:9-92
+	android:name
+		ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:15:19-89
+service#com.transistorsoft.tsbackgroundfetch.FetchJobService
+ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:17:9-20:72
+	android:exported
+		ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:19:13-36
+	android:permission
+		ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:20:13-69
+	android:name
+		ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:18:13-80
+receiver#com.transistorsoft.tsbackgroundfetch.BootReceiver
+ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:22:9-27:20
+	android:name
+		ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:22:19-83
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:24:17-79
+	android:name
+		ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:24:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:25:17-84
+	android:name
+		ADDED from [tsbackgroundfetch-0.3.2.aar] /home/savas/.gradle/caches/transforms-2/files-2.1/75290cc6857cc5a54ff86791490ef456/tsbackgroundfetch-0.3.2/AndroidManifest.xml:25:25-81
 activity#io.flutter.plugins.share.ShareReceiverActivityWorker
 ADDED from [:share] /home/savas/androidstudioprojects/langfella2/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-32:20
 	android:theme

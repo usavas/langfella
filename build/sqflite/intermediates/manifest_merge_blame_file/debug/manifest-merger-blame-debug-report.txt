@@ -1,8 +1,14 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.tekartik.sqflite" >
-4
-5    <uses-sdk android:minSdkVersion="16" />
-5-->/home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.1.6+5/android/src/main/AndroidManifest.xml
+3    package="com.tekartik.sqflite"
+4    android:versionCode="1"
+5    android:versionName="0.0.1" >
 6
-7</manifest>
+7    <uses-sdk
+7-->/home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:3-45
+8        android:minSdkVersion="16"
+8-->/home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:3-45
+9        android:targetSdkVersion="21" />
+9-->/home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:13-42
+10
+11</manifest>

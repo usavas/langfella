@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flip_card/flip_card.dart';
-import 'package:langfella2/models/word_translation.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-
 
 class WordTile extends StatelessWidget {
   final String word;
@@ -17,7 +15,6 @@ class WordTile extends StatelessWidget {
 }
 
 class FlipCardCustom extends StatelessWidget {
-
   final String _word;
   final String _translation;
 
@@ -30,44 +27,45 @@ class FlipCardCustom extends StatelessWidget {
       direction: FlipDirection.HORIZONTAL,
       front: Card(
           child: Container(
-            height: 100,
+        height: 100,
 //            padding: EdgeInsets.only(top: 40, bottom: 40),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Text(
-                  _word,
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                )
-              ],
-            ),
-          )),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              _word,
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            )
+          ],
+        ),
+      )),
       back: Card(
         child: Container(
           height: 100,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
 //            mainAxisAlignment: MainAxisAlignment.center,
-             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               Text(
                 _translation,
                 maxLines: 2,
                 style: TextStyle(fontSize: 18),
               ),
-              Text('some text goes here', style: TextStyle(fontSize: 14),)
+              Text(
+                'some text goes here',
+                style: TextStyle(fontSize: 14),
+              )
             ],
           ),
         ),
-
       ),
     );
   }
 }
 
 class SlideWidget extends StatelessWidget {
-
   final Widget _childWidget;
 
   SlideWidget(this._childWidget);
@@ -105,7 +103,6 @@ class SlideWidget extends StatelessWidget {
           color: Colors.green,
           icon: Icons.verified_user,
           onTap: () => _showSnackBar(context, 'Marked as learnt'),
-
         )
       ],
     );
@@ -126,7 +123,4 @@ class SlideWidget extends StatelessWidget {
     // it to show a SnackBar.
     Scaffold.of(context).showSnackBar(snackBar);
   }
-
 }
-
-

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/savas/androidstudioprojects/langfella2/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
+            "outputFile": "C:\\projects.langfella\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
                 {
-                    "source": "/home/savas/.gradle/caches/transforms-2/files-2.1/0d7e9453f40e7499a9a54e65d12cd730/appcompat-1.0.2/res/values-ta/values-ta.xml",
+                    "source": "C:\\Users\\savas\\.gradle\\caches\\transforms-2\\files-2.1\\0d7e9453f40e7499a9a54e65d12cd730\\appcompat-1.0.2\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/savas/.gradle/caches/transforms-2/files-2.1/7eccdefb6c9f8542a620665b4e125dec/core-1.0.1/res/values-ta/values-ta.xml",
+                    "source": "C:\\Users\\savas\\.gradle\\caches\\transforms-2\\files-2.1\\5bc0a12196d8379e4c0101b849bee434\\core-1.1.0\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

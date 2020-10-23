@@ -5,10 +5,10 @@
 5    android:versionName="0.0.1" >
 6
 7    <uses-sdk
-7-->/home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:3-45
+7-->C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:6:3-72
 8        android:minSdkVersion="16"
-8-->/home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:3-45
+8-->C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:6:13-39
 9        android:targetSdkVersion="21" />
-9-->/home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:13-42
+9-->C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:6:40-69
 10
 11</manifest>

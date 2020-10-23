@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 
 import 'package:langfella2/models/book_info.dart';
 import 'package:langfella2/pages/add_book_page.dart';
@@ -11,9 +10,6 @@ class BookInfoGridTile extends StatelessWidget {
   final bool isAddedBooksPage;
 
   BookInfoGridTile(this._bookInfo, this.isAddedBooksPage);
-
-  final String LOCALHOST = "http://192.168.2.61";
-
   @override
   Widget build(BuildContext context) => GestureDetector(
         child: Stack(
@@ -21,7 +17,8 @@ class BookInfoGridTile extends StatelessWidget {
             alignment: Alignment.bottomCenter,
             children: <Widget>[
               Image.network(
-                LOCALHOST + ":8080/books/image/" + _bookInfo.getBookTitle(),
+                "http://192.168.2.61:8080/books/image/" +
+                    _bookInfo.getBookTitle(),
                 fit: BoxFit.cover,
               ),
               Column(

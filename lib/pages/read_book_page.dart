@@ -63,7 +63,6 @@ class _ReadBookState extends State<ReadBook> {
                             color: Colors.blue,
                           ),
                         ),
-
                         for (String c in _book.chapters)
                           ListTile(
                             title: Text(

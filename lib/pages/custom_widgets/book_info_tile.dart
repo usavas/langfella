@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 
 import 'package:langfella2/models/book_info.dart';
 import 'package:langfella2/pages/add_book_page.dart';
 import 'package:langfella2/pages/read_book_page.dart';
-
 
 /// show a book's info in a row which is not responsive (one book for each whole row)
 class BookInfoTile extends StatelessWidget {
@@ -12,9 +10,6 @@ class BookInfoTile extends StatelessWidget {
   final bool isAddedBooksPage;
 
   BookInfoTile(this._bookInfo, this.isAddedBooksPage);
-
-  final String LOCALHOST = "http://192.168.2.61";
-
   @override
   Widget build(BuildContext context) => GestureDetector(
         child: Card(
@@ -25,7 +20,8 @@ class BookInfoTile extends StatelessWidget {
               child: Container(
                 padding: EdgeInsets.all(10),
                 child: Image.network(
-                  LOCALHOST + ":8080/books/image/" + _bookInfo.getBookTitle(),
+                  "http://192.168.2.61:8080/books/image/" +
+                      _bookInfo.getBookTitle(),
                   fit: BoxFit.fitHeight,
                 ),
               ),
@@ -58,29 +54,25 @@ class BookInfoColumn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return
-      Container(
-        margin: EdgeInsets.only(top: 10, bottom: 10),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
-
-            TitleRow(_bookInfo),
-            AuthorRow(_bookInfo),
-
-            Container(
-              margin: EdgeInsets.only(top: 20),
-              child: WordCountRow(_bookInfo),
-            ),
-
-            Container(
-              padding: EdgeInsets.only(top: 20),
-              child: GenreLevelRow(_bookInfo),
-            )
-          ],
-        ),
-      );
+    return Container(
+      margin: EdgeInsets.only(top: 10, bottom: 10),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: <Widget>[
+          TitleRow(_bookInfo),
+          AuthorRow(_bookInfo),
+          Container(
+            margin: EdgeInsets.only(top: 20),
+            child: WordCountRow(_bookInfo),
+          ),
+          Container(
+            padding: EdgeInsets.only(top: 20),
+            child: GenreLevelRow(_bookInfo),
+          )
+        ],
+      ),
+    );
   }
 }
 
@@ -191,7 +183,6 @@ class WordCountRow extends StatelessWidget {
 //            padding: EdgeInsets.only(top: 2),
 //          ),
 //          Text(_bookInfo.uniqueWords.toString() + " tekil kelime")
-
         ],
       ),
     );

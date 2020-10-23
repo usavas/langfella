@@ -1,4 +1,4 @@
-#Fri Sep 27 01:52:24 EET 2019
-base.0=/home/savas/androidstudioprojects/langfella2/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Fri Oct 23 19:27:43 EET 2020
+base.0=C\:\\projects.langfella\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

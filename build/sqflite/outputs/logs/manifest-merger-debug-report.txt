@@ -1,33 +1,33 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:1:1-7:12
+ADDED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:2:3-33
-		INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml
-		INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml
+		ADDED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:2:3-33
+		INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:4:3-30
-		INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml
-		INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml
+		ADDED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:4:3-30
+		INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
-		ADDED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:3:3-26
-		INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml
-		INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml
+		ADDED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:3:3-26
+		INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:3-45
-INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:3-45
-INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:3-45
+ADDED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:6:3-72
+INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:6:3-72
+INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:6:3-72
 	android:targetSdkVersion
-		ADDED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:13-42
+		ADDED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:6:40-69
 	android:minSdkVersion
-		INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml
-		ADDED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml:6:3-45
-		INJECTED from /home/savas/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.2+4/android/src/main/AndroidManifest.xml
+		ADDED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml:6:13-39
+		INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\savas\Desktop\flutter\.pub-cache\hosted\pub.dartlang.org\sqflite-0.11.2+4\android\src\main\AndroidManifest.xml

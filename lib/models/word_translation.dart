@@ -1,10 +1,4 @@
-import 'package:flutter/cupertino.dart';
-
 class WordTranslation {
-
-
-
-
   int id;
   int bookId;
   String word;
@@ -35,8 +29,6 @@ class WordTranslation {
     this.isArchived = false;
   }
 
-
-
   WordTranslation.fromJSON(Map<String, dynamic> jsonMap)
       : id = jsonMap['id'],
         word = jsonMap['word'],
@@ -52,19 +44,24 @@ class WordTranslation {
         bookId = jsonMap['readingId'];
 
   Map<String, dynamic> toDbMap() => {
-    "id": id,
-    "book_id": bookId,
-    "word":  word,
-    'translation': translation,
-    'source_lang': sourceLang,
-    'target_lang': targetLang,
-    'example_sentences': (exampleSentences != null) ? exampleSentences.join(sentenceDelimiter) : null,
-    'date_saved': dateSaved.millisecondsSinceEpoch,
-    'date_last_rev': (dateLastRevision != null) ? dateLastRevision.millisecondsSinceEpoch : null,
-    'rev_period_count': revPeriodCount,
-    'word_curr_state': (wordCurrentState == WordCurrentState.LEARNING) ? 1 : 2,
-    'is_archived': isArchived ? 1 : 0,
-  };
+        "id": id,
+        "book_id": bookId,
+        "word": word,
+        'translation': translation,
+        'source_lang': sourceLang,
+        'target_lang': targetLang,
+        'example_sentences': (exampleSentences != null)
+            ? exampleSentences.join(sentenceDelimiter)
+            : null,
+        'date_saved': dateSaved.millisecondsSinceEpoch,
+        'date_last_rev': (dateLastRevision != null)
+            ? dateLastRevision.millisecondsSinceEpoch
+            : null,
+        'rev_period_count': revPeriodCount,
+        'word_curr_state':
+            (wordCurrentState == WordCurrentState.LEARNING) ? 1 : 2,
+        'is_archived': isArchived ? 1 : 0,
+      };
 
   factory WordTranslation.fromDbMap(Map<String, dynamic> json) {
     WordTranslation t = WordTranslation(
@@ -73,13 +70,13 @@ class WordTranslation {
       json['sourceLang'],
       json['targetLang'],
     );
-    t.isArchived = (json['is_archived'] == 1) ? true: false;
+    t.isArchived = (json['is_archived'] == 1) ? true : false;
     t.wordCurrentState = (json['word_curr_state'] == 1)
         ? WordCurrentState.LEARNING
         : WordCurrentState.MASTERED;
     t.revPeriodCount = json['rev_period_count'];
 
-    t.bookId = json['book_id'] ;
+    t.bookId = json['book_id'];
     t.id = json['id'];
 
     var dSaved = json['date_saved'];
@@ -87,17 +84,17 @@ class WordTranslation {
       t.dateSaved = DateTime.fromMillisecondsSinceEpoch(dSaved);
     }
     var dLastRev = json['date_last_rev'];
-    if (dLastRev != null && dLastRev != 0){
+    if (dLastRev != null && dLastRev != 0) {
       t.dateLastRevision = DateTime.fromMillisecondsSinceEpoch(dLastRev);
     }
 
     t.exampleSentences = (json['example_sentences'] != null)
-        ? json['example_sentences'].split(sentenceDelimiter) : null;
+        ? json['example_sentences'].split(sentenceDelimiter)
+        : null;
 
     return t;
   }
 }
-
 
 enum WordCurrentState { LEARNING, MASTERED }
 const String sentenceDelimiter = '##';

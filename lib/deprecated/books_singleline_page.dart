@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:langfella2/pages/book_catalogue_page.dart';
-import 'package:langfella2/pages/custom_widgets/book_info_grid_tile.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-
 import 'package:langfella2/models/book_info.dart';
-import 'package:langfella2/deprecated/book_info_tile_deprecated.dart';
-
 import '../pages/custom_widgets/book_info_tile.dart';
 
 final String _localHost = "http://192.168.2.61";
@@ -36,9 +31,7 @@ class _BooksState extends State<Books> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:
-
-      ListView.builder(
+      body: ListView.builder(
           itemCount: _books.length,
           itemBuilder: (context, index) => Container(
                 padding: EdgeInsets.fromLTRB(12, 0, 12, 0),

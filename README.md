@@ -1,16 +1,5 @@
-# langfella2
+# Langfella
 
-A new Flutter application.
+This app was on its way to be re-written in dart. It was previously written in Java for Android only.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It was abandoned because of some roadblocks due to the Flutter environment being immature at the time and also some potential copyright issues.
